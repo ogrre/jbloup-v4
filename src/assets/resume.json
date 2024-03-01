@@ -1,0 +1,297 @@
+{
+  "basics": {
+    "name": "Jean-Baptiste LOUP",
+    "label": "Backend Developer",
+    "email": "contact@jbloup.com",
+    "url": "https://jbloup.com",
+    "title": "Backend Developer",
+    "company": "Wokine",
+    "companyUrl": "https://wokine.com/",
+    "phoneNumberFr": "+33 6 50 52 44 00",
+    "phoneNumberCa": "",
+    "subtitle": "Methodical, curious, and ambitious, I currently hold the position of PHP Backend Developer at Wokine.",
+    "summary": "A web developer for almost 5 years, my professional journey is quite original. After exploring several very different professions, from postal worker to train driver to ambulance driver, I finally retrained in 2019, thus discovering my true professional path: web development.",
+    "location": {
+      "locationCountryCode": "FR",
+      "city": "Lille"
+    },
+    "profiles": [
+      {
+        "network": "X",
+        "url": "https://twitter.com/_0grre",
+        "username": "_0grre"
+      },
+      {
+        "network": "Reddit",
+        "url": "https://www.reddit.com/user/0gre-Singleton/",
+        "username": "0grre-Singleton"
+      },
+      {
+        "network": "Github",
+        "url": "https://github.com/0grre",
+        "username": "0grre"
+      },
+      {
+        "network": "Bluesky",
+        "url": "https://bsky.app/profile/0grre.bsky.social",
+        "username": "_0grre"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jean-baptiste-loup-363941180/",
+        "username": "Jean-Baptiste Loup"
+      },
+      {
+        "network": "WeLoveDevs",
+        "url": "https://jb-loup.welovedevs.com",
+        "username": "JB Loup"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "WOKINE",
+      "position": "Backend Developer",
+      "startDate": "2021",
+      "summary": "Backend Development Laravel & Wordpress - Frontend VueJS",
+      "location": "Lille, France",
+      "highlights": [
+        "PHP",
+        "Laravel",
+        "Wordpress",
+        "Timber/Twig",
+        "VueJS",
+        "Docker"
+      ],
+      "url": "https://wokine.com/"
+    },
+    {
+      "name": "BORESA",
+      "position": "Consultant - Management Developer",
+      "startDate": "2019",
+      "endDate": "2021",
+      "summary": "Developer and Consultant on management software.",
+      "location": "Achicourt, France",
+      "highlights": [
+        "PHP",
+        "Laravel",
+        "Javascript",
+        "Windev",
+        "SQL"
+      ],
+      "url": "https://boresa.fr/"
+    },
+    {
+      "name": "Centre Européen de Formation",
+      "position": "Inside Sales",
+      "startDate": "2019",
+      "endDate": "2019",
+      "summary": "Inside sales, selling distance learning courses over the phone",
+      "location": "Villeneuve-d'Ascq, France",
+      "url": "https://www.centre-europeen-formation.fr/"
+    },
+    {
+      "name": "SNCF",
+      "position": "Train Driver",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Train Driver for RER E and Line P",
+      "location": "Paris, France",
+      "url": "https://www.sncf.com/fr"
+    },
+    {
+      "name": "JUSSIEU secours France",
+      "position": "Ambulance Assistant",
+      "startDate": "2017",
+      "endDate": "2018",
+      "summary": "Ambulance Assistant for SAMU and VSL driver",
+      "location": "Marquette-en-Ostrevant, France",
+      "url": "https://jussieu-secours.fr/"
+    },
+    {
+      "name": "Le Groupe La Poste",
+      "position": "Delivery Driver",
+      "startDate": "2016",
+      "endDate": "2017",
+      "summary": "Delivery and postal worker in various cities",
+      "location": "Hénin-Beaumont, France",
+      "url": "https://www.laposte.fr/"
+    },
+    {
+      "name": "COMMUNE DE WINGLES",
+      "position": "Animator",
+      "startDate": "2012",
+      "endDate": "2017",
+      "summary": "Animator/director of collective reception for minors from 3 to 18 years old during the school holidays from 2012 to 2017",
+      "location": "Wingles, France",
+      "url": "https://wingles.fr/"
+    }
+  ],
+  "education": [
+    {
+      "institution": "CESI School of Engineering",
+      "area": "Computer Developer",
+      "studyType": "Master Manager in Application Systems Information Architecture (Bac+5)",
+      "startDate": "2022",
+      "endDate": "2024"
+    },
+    {
+      "institution": "CESI School of Engineering",
+      "area": "Computer Development",
+      "studyType": "Bachelor in Software Engineering (bac+3)",
+      "startDate": "2021",
+      "endDate": "2022"
+    },
+    {
+      "institution": "CESI Higher Education of Alternance",
+      "area": "Computer Development",
+      "studyType": "Computer Developer (Bac+2)",
+      "startDate": "2019",
+      "endDate": "2021"
+    },
+    {
+      "institution": "University of Artois",
+      "area": "Law",
+      "studyType": "Bachelor of Law, Law",
+      "startDate": "2013",
+      "endDate": "2017"
+    },
+    {
+      "institution": "University of Lille",
+      "area": "Cinematographic Studies",
+      "studyType": "Bachelor in Cinematographic Studies, Cinema Studies",
+      "startDate": "2012",
+      "endDate": "2013"
+    }
+  ],
+  "skills": [
+    {
+      "name": "PHP",
+      "value": 90
+    },
+    {
+      "name": "Laravel",
+      "value": 80
+    },
+    {
+      "name": "Javascript",
+      "value": 80
+    },
+    {
+      "name": "Vue",
+      "value": 70
+    },
+    {
+      "name": "Rust",
+      "value": 25
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 100,
+      "language": "French"
+    },
+    {
+      "name": "English",
+      "value": 60,
+      "language": "English"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Running"
+    },
+    {
+      "name": "Rugby"
+    },
+    {
+      "name": "Astronomy/Aerospace"
+    },
+    {
+      "name": "Reading/Cinema"
+    },
+    {
+      "name": "Aquaristics/Biophilia"
+    }
+  ],
+  "projects": [
+    {
+      "starDate": "2024",
+      "highlights": [
+        "Vue",
+        "Vercel"
+      ],
+      "summary": "A showcase site to present an unofficial creative agency that I run to create websites.",
+      "url": "",
+      "name": "ammaclassicauto.com"
+    },
+    {
+      "starDate": "2024",
+      "highlights": [
+        "Vue",
+        "Vercel"
+      ],
+      "summary": "A showcase site to present an unofficial creative agency that I run to create websites.",
+      "url": "",
+      "name": "betta.black"
+    },
+    {
+      "starDate": "2024",
+      "highlights": [
+        "Vue",
+        "Vercel"
+      ],
+      "summary": "My personal site, to introduce myself but also to present my CV.",
+      "url": "https://jbloup.com",
+      "name": "jbloup.com"
+    },
+    {
+      "starDate": "2023",
+      "highlights": [
+        "Laravel",
+        "Openai",
+        "Redis",
+        "Blade",
+        "Fly.io"
+      ],
+      "summary": "Web application for generating cover letters via openAI and powered by employment data.\n\nDeveloped with Laravel and deployed on fly.io",
+      "url": "https://lettredemotivation.app",
+      "name": "lettredemotivation.app"
+    },
+    {
+      "starDate": "2023",
+      "highlights": [
+        "Laravel",
+        "Filament",
+        "Redis",
+        "Inertia",
+        "Fly.io"
+      ],
+      "summary": "Showcase site for an artist, with description and possibility to add new works and meeting dates.\n\nDeveloped in laravel with filament, Inertia and deployed on fly.io",
+      "url": "https://crealion.art",
+      "name": "crealion.art"
+    },
+    {
+      "starDate": "2022",
+      "highlights": [
+        "Nuxt",
+        "Vue",
+        "Vercel"
+      ],
+      "summary": "Presentation site for an NFT project on the Solana blockchain.\n\nServer Side site with Notion as data source, developed with NuxtJS and deployed on Vercel.",
+      "url": "https://degenosaur.us",
+      "name": "degenosaur.us"
+    },
+    {
+      "starDate": "2021",
+      "highlights": [
+        "Vue",
+        "Vercel"
+      ],
+      "summary": "A showcase site for a personal development coach that quickly presents the concept he offers along with a small contact form.\n\nDeveloped with NuxtJS and deployed on Vercel.",
+      "url": "https://franckmalecki.com",
+      "name": "franckmalecki.com"
+    }
+  ]
+}

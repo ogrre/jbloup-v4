@@ -20,7 +20,7 @@ const resume: Resume = resumeData as Resume;
             <span class="tracking-widest text-xs">[⌘]</span>
             {{ resume.basics.name }}
           </h1>
-          <p class="text-zinc-400">Hi ! I'm {{ resume.basics.title }} at <a class="relative group"
+          <p class="text-zinc-400">Currently working as {{ resume.basics.title }} at <a class="relative group"
                                                                                   :href="resume.basics.companyUrl"
                                                                                   target="_blank">
             <span class="text-zinc-400 italic uppercase">{{ resume.basics.company }}</span>

@@ -76,7 +76,7 @@ const resume: Resume = resumeData as Resume;
                 <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-zinc-600 transition-all group-hover:w-full"></span>
               </a>
             </h4>
-            <p class="sm:w-72">[ * ]</p>
+            <p class="sm:w-72 lg:w-64">[ * ]</p>
           </li>
         </ul>
       </div>
@@ -91,7 +91,7 @@ const resume: Resume = resumeData as Resume;
             <a class="sm:w-full flex flex-row justify-between" :href="experience.url" target="_blank">
               <h4 class="lg:hidden">{{ experience.position + ' | '}}<span class="uppercase"> {{ ' | ' + experience.shortName }}</span></h4>
               <h4 class="hidden lg:flex">{{ experience.position  + ' | '}}<span class="uppercase"> {{ ' | ' + experience.name }}</span></h4>
-              <p class="sm:w-72">[ {{ experience.startDate }} - {{ experience.endDate ?? 'Now' }} ]</p>
+              <p class="sm:w-72 lg:w-64">[ {{ experience.startDate }} - {{ experience.endDate ?? 'Now' }} ]</p>
             </a>
           </li>
         </ul>
@@ -106,7 +106,7 @@ const resume: Resume = resumeData as Resume;
               v-for="project in resume.projects" v-bind:key="project.name">
             <a class="sm:w-full flex flex-row justify-between " :href="project.url" target="_blank">
               <h4>{{ project.name }} \\ <span>{{ project.type }}</span></h4>
-              <p class="sm:w-72">[ {{ project.url ? project.starDate : 'Coming soon'}} ]</p>
+              <p class="sm:w-72 lg:w-64">[ {{ project.url ? project.starDate : 'Coming soon'}} ]</p>
             </a>
           </li>
         </ul>

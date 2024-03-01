@@ -231,6 +231,7 @@
       ],
       "summary": "A showcase site to present an unofficial creative agency that I run to create websites.",
       "url": "",
+      "type": "website",
       "name": "ammaclassicauto.com"
     },
     {
@@ -241,6 +242,7 @@
       ],
       "summary": "A showcase site to present an unofficial creative agency that I run to create websites.",
       "url": "",
+      "type": "website",
       "name": "betta.black"
     },
     {
@@ -251,6 +253,7 @@
       ],
       "summary": "My personal site, to introduce myself but also to present my CV.",
       "url": "https://jbloup.com",
+      "type": "website",
       "name": "jbloup.com"
     },
     {
@@ -264,6 +267,7 @@
       ],
       "summary": "Web application for generating cover letters via openAI and powered by employment data.\n\nDeveloped with Laravel and deployed on fly.io",
       "url": "https://lettredemotivation.app",
+      "type": "web app",
       "name": "lettredemotivation.app"
     },
     {
@@ -277,6 +281,7 @@
       ],
       "summary": "Showcase site for an artist, with description and possibility to add new works and meeting dates.\n\nDeveloped in laravel with filament, Inertia and deployed on fly.io",
       "url": "https://crealion.art",
+      "type": "website",
       "name": "crealion.art"
     },
     {
@@ -288,6 +293,7 @@
       ],
       "summary": "Presentation site for an NFT project on the Solana blockchain.\n\nServer Side site with Notion as data source, developed with NuxtJS and deployed on Vercel.",
       "url": "https://degenosaur.us",
+      "type": "website",
       "name": "degenosaur.us"
     },
     {
@@ -298,6 +304,7 @@
       ],
       "summary": "A showcase site for a personal development coach that quickly presents the concept he offers along with a small contact form.\n\nDeveloped with NuxtJS and deployed on Vercel.",
       "url": "https://franckmalecki.com",
+      "type": "website",
       "name": "franckmalecki.com"
     }
   ]

@@ -63,6 +63,7 @@ interface Project {
     highlights: string[];
     summary: string;
     url: string;
+    type: string;
     name: string;
 }
 

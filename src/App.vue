@@ -72,7 +72,7 @@ const resume: Resume = resumeData as Resume;
           <li class="sm:w-full flex flex-row justify-between">
             <h4>
               <a class="relative group" href="/data/Jean-Baptiste_LOUP_CV_2024.pdf" target="_blank">
-                <span>Full resume pdf &rarr;</span>
+                <span class="uppercase">get full resume pdf &rarr;</span>
                 <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-zinc-600 transition-all group-hover:w-full"></span>
               </a>
             </h4>
@@ -89,8 +89,8 @@ const resume: Resume = resumeData as Resume;
           <li class="hover:bg-zinc-300 hover:text-zinc-950 transition-colors duration-300"
               v-for="experience in resume.work" v-bind:key="experience.position">
             <a class="sm:w-full flex flex-row justify-between" :href="experience.url" target="_blank">
-              <h4 class="lg:hidden">{{ experience.position }} | <span class="italic uppercase">{{ experience.shortName }}</span></h4>
-              <h4 class="hidden lg:flex">{{ experience.position }} | <span class="italic uppercase">{{ experience.name }}</span></h4>
+              <h4 class="lg:hidden">{{ experience.position + ' | '}}<span class="uppercase"> {{ ' | ' + experience.shortName }}</span></h4>
+              <h4 class="hidden lg:flex">{{ experience.position  + ' | '}}<span class="uppercase"> {{ ' | ' + experience.name }}</span></h4>
               <p class="sm:w-72">[ {{ experience.startDate }} - {{ experience.endDate ?? 'Now' }} ]</p>
             </a>
           </li>
@@ -105,7 +105,7 @@ const resume: Resume = resumeData as Resume;
           <li class="hover:bg-zinc-300 hover:text-zinc-950 transition-colors duration-300"
               v-for="project in resume.projects" v-bind:key="project.name">
             <a class="sm:w-full flex flex-row justify-between " :href="project.url" target="_blank">
-              <h4>{{ project.name }} | <span>Dev & Design</span></h4>
+              <h4>{{ project.name }} \\ <span>{{ project.type }}</span></h4>
               <p class="sm:w-72">[ {{ project.url ? project.starDate : 'Coming soon'}} ]</p>
             </a>
           </li>

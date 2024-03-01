@@ -102,13 +102,12 @@ const resume: Resume = resumeData as Resume;
           <span class="tracking-widest text-xs">[2]</span> Projects
         </h2>
         <ul class="w-full lg:w-2/3 space-y-2.5">
-          <li class="sm:w-full flex flex-row justify-between hover:bg-zinc-300 hover:text-zinc-950 transition-colors duration-300"
+          <li class="hover:bg-zinc-300 hover:text-zinc-950 transition-colors duration-300"
               v-for="project in resume.projects" v-bind:key="project.name">
             <a class="sm:w-full flex flex-row justify-between " :href="project.url" target="_blank">
-              <h4>{{ project.name }}
-              </h4>
+              <h4>{{ project.name }} | <span>Dev & Design</span></h4>
+              <p class="sm:w-72">[ {{ project.url ? project.starDate : 'Coming soon'}} ]</p>
             </a>
-            <p class="sm:w-72">[ {{ project.url ? project.starDate : 'Coming soon'}} ]</p>
           </li>
         </ul>
       </div>

@@ -25,6 +25,7 @@ interface Profile {
 
 interface Experience {
     name: string;
+    shortName: string;
     position: string;
     startDate: string;
     endDate: string;

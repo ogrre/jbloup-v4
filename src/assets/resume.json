@@ -51,6 +51,7 @@
   "work": [
     {
       "name": "WOKINE",
+      "shortName": "WOKINE",
       "position": "Backend Developer",
       "startDate": "2021",
       "summary": "Backend Development Laravel & Wordpress - Frontend VueJS",
@@ -67,7 +68,8 @@
     },
     {
       "name": "BORESA",
-      "position": "Consultant - Management Developer",
+      "shortName": "BORESA",
+      "position": "Consultant - Developer",
       "startDate": "2019",
       "endDate": "2021",
       "summary": "Developer and Consultant on management software.",
@@ -83,6 +85,7 @@
     },
     {
       "name": "Centre Européen de Formation",
+      "shortName": "CEF",
       "position": "Inside Sales",
       "startDate": "2019",
       "endDate": "2019",
@@ -92,6 +95,7 @@
     },
     {
       "name": "SNCF",
+      "shortName": "SNCF",
       "position": "Train Driver",
       "startDate": "2018",
       "endDate": "2019",
@@ -101,6 +105,7 @@
     },
     {
       "name": "JUSSIEU secours France",
+      "shortName": "JUSSIEU",
       "position": "Ambulance Assistant",
       "startDate": "2017",
       "endDate": "2018",
@@ -110,6 +115,7 @@
     },
     {
       "name": "Le Groupe La Poste",
+      "shortName": "La Poste",
       "position": "Delivery Driver",
       "startDate": "2016",
       "endDate": "2017",
@@ -119,6 +125,7 @@
     },
     {
       "name": "COMMUNE DE WINGLES",
+      "shortName": "Wingles",
       "position": "Animator",
       "startDate": "2012",
       "endDate": "2017",

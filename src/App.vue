@@ -34,7 +34,7 @@ const resume: Resume = resumeData as Resume;
             <h2 class="text-zinc-200 font-input-serif"><span class="tracking-widest text-xs">[@]</span> Socials
             </h2>
             <p class="text-zinc-400">
-              <a class="relative group" :href="profile.url" target="_blank" v-for="profile in resume.basics.profiles">
+              <a class="relative group" :href="profile.url" target="_blank" v-for="profile in resume.basics.profiles" v-bind:key="profile.network">
                 <span>{{ profile.network }}</span>
                 <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-zinc-600 transition-all group-hover:w-full"></span>
                 / </a>
@@ -87,10 +87,10 @@ const resume: Resume = resumeData as Resume;
         </h2>
         <ul class="w-full lg:w-2/3 space-y-2.5">
           <li class="hover:bg-zinc-300 hover:text-zinc-950 transition-colors duration-300"
-              v-for="experience in resume.work">
+              v-for="experience in resume.work" v-bind:key="experience.position">
             <a class="sm:w-full flex flex-row justify-between" :href="experience.url" target="_blank">
-              <h4>{{ experience.position }} | <span class="italic uppercase">{{ experience.name }}</span>
-              </h4>
+              <h4 class="lg:hidden">{{ experience.position }} | <span class="italic uppercase">{{ experience.shortName }}</span></h4>
+              <h4 class="hidden lg:flex">{{ experience.position }} | <span class="italic uppercase">{{ experience.name }}</span></h4>
               <p class="sm:w-72">[ {{ experience.startDate }} - {{ experience.endDate ?? 'Now' }} ]</p>
             </a>
           </li>
@@ -103,12 +103,12 @@ const resume: Resume = resumeData as Resume;
         </h2>
         <ul class="w-full lg:w-2/3 space-y-2.5">
           <li class="sm:w-full flex flex-row justify-between hover:bg-zinc-300 hover:text-zinc-950 transition-colors duration-300"
-              v-for="project in resume.projects">
+              v-for="project in resume.projects" v-bind:key="project.name">
             <a class="sm:w-full flex flex-row justify-between " :href="project.url" target="_blank">
               <h4>{{ project.name }}
               </h4>
-              <p class="sm:w-72">[ {{ project.url ? project.starDate : 'Coming soon'}} ]</p>
             </a>
+            <p class="sm:w-72">[ {{ project.url ? project.starDate : 'Coming soon'}} ]</p>
           </li>
         </ul>
       </div>

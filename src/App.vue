@@ -71,7 +71,7 @@ const resume: Resume = resumeData as Resume;
         <ul class="w-full lg:w-2/3 space-y-2.5">
           <li class="sm:w-full flex flex-row justify-between">
             <h4>
-              <a class="relative group" href="/data/Jean-Baptiste_LOUP_CV_2024.pdf" target="_blank">
+              <a class="relative group" href="/data/CV_FR_2024_Jean-Baptiste_LOUP.pdf" target="_blank">
                 <span class="uppercase">get full resume pdf &rarr;</span>
                 <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-zinc-600 transition-all group-hover:w-full"></span>
               </a>

@@ -5,11 +5,11 @@
     "email": "contact@jbloup.com",
     "url": "https://jbloup.com",
     "title": "Backend Developer",
-    "company": "Wokine",
-    "companyUrl": "https://wokine.com/",
+    "company": "Plus que pro",
+    "companyUrl": "https://www.plus-que-pro.fr/",
     "phoneNumberFr": "+33 6 50 52 44 00",
     "phoneNumberCa": "+1 (438) 788-6684",
-    "subtitle": "Methodical, curious, and ambitious, I currently hold the position of PHP Backend Developer at Wokine.",
+    "subtitle": "Methodical, curious, and ambitious, I currently hold the position of PHP Backend Developer at Plus que pro.",
     "summary": "A web developer for almost 5 years, my professional journey is quite original. After exploring several very different professions, from postal worker to train driver to ambulance driver, I finally retrained in 2019, thus discovering my true professional path: web development.",
     "location": {
       "locationCountryCode": "FR",
@@ -53,12 +53,28 @@
       }
     ]
   },
-  "work": [
+    "work": [
+    {
+      "name": "Plus que pro",
+      "shortName": "PQP",
+      "position": "Backend Developer",
+      "startDate": "2024",
+      "summary": "Backend Development Laravel",
+      "location": "Valenciennes, France",
+      "highlights": [
+        "PHP",
+        "Laravel",
+        "React",
+        "Docker"
+      ],
+      "url": "https://www.plus-que-pro.fr/"
+    },
     {
       "name": "WOKINE",
       "shortName": "WOKINE",
       "position": "Backend Developer",
       "startDate": "2021",
+      "endDate": "2024",
       "summary": "Backend Development Laravel & Wordpress - Frontend VueJS",
       "location": "Lille, France",
       "highlights": [

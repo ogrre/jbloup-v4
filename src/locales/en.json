@@ -1,0 +1,21 @@
+{
+  "header": {
+    "name": "Jean-Baptiste LOUP",
+    "title": "Fullstack Developer",
+    "currentlyWorking": "Currently working as {title} at",
+    "company": "La Compagnie Rochelaise du Logiciel"
+  },
+  "sections": {
+    "socials": "Socials",
+    "contact": "Get in contact",
+    "resume": "Resume",
+    "career": "Career",
+    "projects": "Projects"
+  },
+  "resume": {
+    "downloadPdf": "get full resume pdf →"
+  },
+  "dates": {
+    "now": "Now"
+  }
+}

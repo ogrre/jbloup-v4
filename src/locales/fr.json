@@ -1,0 +1,21 @@
+{
+  "header": {
+    "name": "Jean-Baptiste LOUP",
+    "title": "Développeur Fullstack",
+    "currentlyWorking": "Actuellement {title} chez",
+    "company": "La Compagnie Rochelaise du Logiciel"
+  },
+  "sections": {
+    "socials": "Réseaux sociaux",
+    "contact": "Me contacter",
+    "resume": "CV",
+    "career": "Parcours",
+    "projects": "Projets"
+  },
+  "resume": {
+    "downloadPdf": "télécharger le CV complet en PDF →"
+  },
+  "dates": {
+    "now": "Maintenant"
+  }
+}

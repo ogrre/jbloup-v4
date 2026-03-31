@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Jean-Baptiste LOUP",
-    "label": "Backend Developer",
+    "label": "Fullstack Developer",
     "email": "contact@jbloup.com",
     "url": "https://jbloup.com",
-    "title": "Backend Developer",
-    "company": "Plus que pro",
-    "companyUrl": "https://www.plus-que-pro.fr/",
+    "title": "Full-stack Developer",
+    "company": "La Compagnie Rochelaise du Logiciel",
+    "companyUrl": "https://corolo.fr/",
     "phoneNumberFr": "+33 6 50 52 44 00",
     "phoneNumberCa": "+1 (438) 788-6684",
     "subtitle": "Methodical, curious, and ambitious, I currently hold the position of PHP Backend Developer at Plus que pro.",
-    "summary": "A web developer for almost 5 years, my professional journey is quite original. After exploring several very different professions, from postal worker to train driver to ambulance driver, I finally retrained in 2019, thus discovering my true professional path: web development.",
+    "summary": "A web developer for almost 7 years, my professional journey is quite original. After exploring several very different professions, from postal worker to train driver to ambulance driver, I finally retrained in 2019, thus discovering my true professional path: web development.",
     "location": {
       "locationCountryCode": "FR",
       "city": "Lille"
@@ -50,10 +50,27 @@
   },
     "work": [
     {
+      "name": "La Compagnie Rochelaise du Logiciel",
+      "shortName": "COROLO",
+      "position": "Fullstack Developer",
+      "startDate": "2025",
+      "summary": "Fullstack Development Laravel and Rust",
+      "location": "Valenciennes, France",
+      "highlights": [
+        "PHP",
+        "Laravel",
+        "React",
+        "Docker",
+        "Rust"
+      ],
+      "url": "https://corolo.fr/"
+    },    
+    {
       "name": "Plus que pro",
       "shortName": "PQP",
       "position": "Backend Developer",
       "startDate": "2024",
+      "endDate": "2025",
       "summary": "Backend Development Laravel",
       "location": "Valenciennes, France",
       "highlights": [
@@ -240,24 +257,24 @@
   ],
   "projects": [
     {
-      "starDate": "2024",
+      "starDate": "2025",
       "highlights": [
         "Vue",
         "Vercel"
       ],
       "summary": "A showcase site to present an unofficial creative agency that I run to create websites.",
-      "url": "",
+      "url": "https://ammaclassicauto.com",
       "type": "website",
       "name": "ammaclassicauto.com"
     },
     {
-      "starDate": "2024",
+      "starDate": "2025",
       "highlights": [
         "Vue",
         "Vercel"
       ],
       "summary": "A showcase site to present an unofficial creative agency that I run to create websites.",
-      "url": "",
+      "url": "https://betta.black",
       "type": "website",
       "name": "betta.black"
     },

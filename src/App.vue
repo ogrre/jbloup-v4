@@ -58,10 +58,6 @@ const { t } = useI18n()
               <a class="relative group" :href="'tel:'+resume.basics.phoneNumberFr">
                 <span>{{ resume.basics.phoneNumberFr }}</span>
                 <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-zinc-600 transition-all group-hover:w-full"></span>
-              </a> //
-              <a class="relative group" :href="'tel:'+resume.basics.phoneNumberCa">
-                <span>{{ resume.basics.phoneNumberCa }}</span>
-                <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-zinc-600 transition-all group-hover:w-full"></span>
               </a>
             </p>
           </div>
@@ -77,7 +73,7 @@ const { t } = useI18n()
         <ul class="w-full lg:w-2/3 space-y-2.5">
           <li class="sm:w-full flex flex-row justify-between">
             <h4>
-              <a class="relative group" href="/data/CV_2025-10-21_Jean-Baptiste_Loup.pdf" target="_blank">
+              <a class="relative group" href="/data/CV_2026_Jean-Baptiste_Loup.pdf" target="_blank">
                 <span class="uppercase">{{ t('resume.downloadPdf') }}</span>
                 <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-zinc-600 transition-all group-hover:w-full"></span>
               </a>

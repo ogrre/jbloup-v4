@@ -1,40 +1,25 @@
 {
   "basics": {
     "name": "Jean-Baptiste LOUP",
-    "label": "Fullstack Developer",
+    "label": "Backend Developer",
     "email": "contact@jbloup.com",
     "url": "https://jbloup.com",
-    "title": "Full-stack Developer",
+    "title": "Backend Developer",
     "company": "La Compagnie Rochelaise du Logiciel",
     "companyUrl": "https://corolo.fr/",
     "phoneNumberFr": "+33 6 50 52 44 00",
     "phoneNumberCa": "+1 (438) 788-6684",
-    "subtitle": "Methodical, curious, and ambitious, I currently hold the position of PHP Backend Developer at Plus que pro.",
-    "summary": "A web developer for almost 7 years, my professional journey is quite original. After exploring several very different professions, from postal worker to train driver to ambulance driver, I finally retrained in 2019, thus discovering my true professional path: web development.",
+    "subtitle": "Développeur Backend / DevOps avec près de 6 ans d'expérience.",
+    "summary": "Spécialisé dans le développement d'applications métier, de CRM, d'API REST et de plateformes SaaS. Expertise en PHP, Laravel, Docker, CI/CD et bases de données relationnelles. Autonome, rigoureux et orienté qualité logicielle.",
     "location": {
       "locationCountryCode": "FR",
       "city": "Lille"
     },
     "profiles": [
       {
-        "network": "X",
-        "url": "https://twitter.com/_0grre",
-        "username": "_0grre"
-      },
-      {
         "network": "Github",
         "url": "https://github.com/ogrre",
         "username": "0grre"
-      },
-      {
-        "network": "Bluesky",
-        "url": "https://bsky.app/profile/0grre.bsky.social",
-        "username": "_0grre"
-      },
-      {
-        "network": "Instagram",
-        "url": "https://www.instagram.com/jbloup/",
-        "username": "jboup"
       },
       {
         "network": "LinkedIn",
@@ -52,10 +37,10 @@
     {
       "name": "La Compagnie Rochelaise du Logiciel",
       "shortName": "COROLO",
-      "position": "Fullstack Developer",
+      "position": "Fullstack Developer / DevOps",
       "startDate": "2025",
-      "summary": "Fullstack Development Laravel and Rust",
-      "location": "Valenciennes, France",
+      "summary": "Développement et exploitation d'une plateforme SaaS de gestion des rappels consommateurs destinée aux enseignes de la grande distribution. Participation à la conception fonctionnelle, au développement des fonctionnalités métier et à l'automatisation des déploiements au sein d'une équipe Agile/Scrum.",
+      "location": "La Rochelle, France",
       "highlights": [
         "PHP",
         "Laravel",

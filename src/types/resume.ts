@@ -3,7 +3,6 @@ interface Basics {
     label: string;
     email: string;
     phoneNumberFr: string;
-    phoneNumberCa: string;
     url: string;
     title: string;
     company: string;

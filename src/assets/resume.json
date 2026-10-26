@@ -242,6 +242,14 @@
   ],
   "projects": [
     {
+      "starDate": "2026",
+      "highlights": [],
+      "summary": "Showcase website for a locksmith business.",
+      "url": "https://verrouserruerie.com",
+      "type": "website",
+      "name": "verrouserruerie.com"
+    },
+    {
       "starDate": "2025",
       "highlights": [
         "Vue",

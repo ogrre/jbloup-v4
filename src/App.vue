@@ -27,13 +27,7 @@ const { t } = useI18n()
             <span class="tracking-widest text-xs">[⌘]</span>
             {{ t('header.name') }}
           </h1>
-          <p class="text-zinc-400">{{ t('header.currentlyWorking', { title: t('header.title') }) }} <a class="relative group"
-                                                                                  :href="resume.basics.companyUrl"
-                                                                                  target="_blank">
-            <span class="text-zinc-400 italic uppercase">{{ t('header.company') }}</span>
-            <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-zinc-500 transition-all group-hover:w-full"></span>
-          </a>
-          </p>
+          <p class="text-zinc-400">{{ t('header.availability') }}</p>
         </div>
 
         <div class="space-y-5">

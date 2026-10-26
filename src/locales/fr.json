@@ -2,8 +2,7 @@
   "header": {
     "name": "Jean-Baptiste LOUP",
     "title": "Développeur Backend",
-    "currentlyWorking": "Actuellement {title} chez",
-    "company": "La Compagnie Rochelaise du Logiciel"
+    "availability": "Disponible depuis août 2026 pour une mission freelance ou un CDI."
   },
   "sections": {
     "socials": "Réseaux sociaux",
